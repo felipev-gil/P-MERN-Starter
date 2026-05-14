@@ -17,9 +17,9 @@ This is a basic MERN or PERN stack starter template using Vite.
 
 2. **Frontend**
    - Axios.
-   - React-router.
-   - Lucide-react.
-   - Tailwindcss.
+   - React Router.
+   - Lucide React.
+   - TailwindCSS.
    - Daisyui.
    - React Hot Toast.
    - Sweetalert2.
@@ -34,14 +34,14 @@ This is a basic MERN or PERN stack starter template using Vite.
 
 2. **Dependencies**:
 
-   Go to the frontend folder run the next command.
+   Go to the frontend folder and run the following command.
 
    ```
    cd ./frontend
    npm install
    ```
 
-   Go to the backend folder run the next command.
+   Go to the backend folder and run the following command.
 
    ```
    cd ./backend
@@ -50,21 +50,22 @@ This is a basic MERN or PERN stack starter template using Vite.
 
 3. **Additional Configuration**:
    - Choose your database system and install the necessary dependencies.
-   - Set up your environment variables by creating modifying the .env files in the frontend and backend.
+   - Set up your environment variables by creating or modifying the .env files in the frontend and backend.
    - Ensure your database connection is configured correctly in the .env file according to your database setup.
+   - Create the folders that are mentioned in each README.md
 
 ## Usage
 
 1. **Start the app**
 
-   Go to the frontend folder run the next command.
+   Go to the frontend folder and run the following command.
 
    ```
    cd ./frontend
    npm run dev
    ```
 
-   Go to the backend folder run the next command.
+   Go to the backend folder and run the following command.
 
    ```
    cd ./backend
