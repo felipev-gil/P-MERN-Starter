@@ -4,16 +4,18 @@
    - The directory in Node.js projects that stores all third-party libraries, packages, and dependencies.
 
 2. **src**
-   - Config
+   - config
      - Configuration files (DB connection logic).
      - Logic to connect and interact with MongoDB or PostgreSQL.
-   - Middleware
+   - controllers
+     - Holds the core logic that processes incoming API requests.
+   - middleware
      - Functions that run before the controller (Authentication, validation, logging).
-   - Models
+   - models
      - Database Schema Definitions (The structure of your data).
-   - Routes
+   - routes
      - API Endpoint definitions (What URL maps to what function).
-   - Index.js
+   - index.js
      - Entry point / Server setup.
 
 3. **.env**
