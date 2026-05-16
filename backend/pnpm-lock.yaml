@@ -1,254 +1,200 @@
 ---
-lockfileVersion: "9.0"
+lockfileVersion: '9.0'
 
 importers:
+
   .:
     configDependencies: {}
     packageManagerDependencies:
-      "@pnpm/exe":
+      '@pnpm/exe':
         specifier: ^11.1.1
-        version: 11.1.1
+        version: 11.1.2
       pnpm:
         specifier: ^11.1.1
-        version: 11.1.1
+        version: 11.1.2
 
 packages:
-  "@pnpm/exe@11.1.1":
-    resolution:
-      {
-        integrity: sha512-5mQnDW1NCBRRWA+cnGhQO+tIrfSfWm3/IyGxU88LnT+tzNW5UrwwKfjsnnYJToyAjIfdfEJtJKUxCvP+mhA+nQ==,
-      }
+
+  '@pnpm/exe@11.1.2':
+    resolution: {integrity: sha512-di6YvqPO/2jvih6kCJ8r0ySzQNjQWrBXPEfqEHtrmwOamuNALnfASwhFBwEtMjWmaA8QG7TqAg2qEvAe+8cBkQ==}
     hasBin: true
 
-  "@pnpm/linux-arm64@11.1.1":
-    resolution:
-      {
-        integrity: sha512-u9hs51XV0/gU5LLfNLoQsozGKIxNjxsh/0xPr+8Hny0M38psa4lBtwFvarL2bLToPIrtueQYi65LdlzRxITRyg==,
-      }
+  '@pnpm/linux-arm64@11.1.2':
+    resolution: {integrity: sha512-VdyZw4LsGm2v+645a7sZsb3MyjrRizTsV7wtpzIySJGYgc7nnQeTzw5QSI5xaoRf/ge0PTKDG8BeRqJOs+KpAg==}
     cpu: [arm64]
     os: [linux]
 
-  "@pnpm/linux-x64@11.1.1":
-    resolution:
-      {
-        integrity: sha512-yQO9i57oyJmIG22BjV7sqLUT2syKQohiku8yNZRgp7M6wsVkikpVLLVSpBifQnrI/P/roueKnWSUEESH1aPaoA==,
-      }
+  '@pnpm/linux-x64@11.1.2':
+    resolution: {integrity: sha512-WTyDmmeQFLDlPJXDFNqJXrEmEjE78dJDXo3VSz7O/xXpC2nPwY38nVxthPGd+6t9SKmGDx/s4RLOjjKo82Hbig==}
     cpu: [x64]
     os: [linux]
 
-  "@pnpm/linuxstatic-arm64@11.1.1":
-    resolution:
-      {
-        integrity: sha512-FUZB8L9Z8L5m88G0RTx5AsHFr5yUQPW+28zQdTNUWxiLwj11FW/fOLodYdcNYHdNJFepsZyqt3aRnpiqIdZb2g==,
-      }
+  '@pnpm/linuxstatic-arm64@11.1.2':
+    resolution: {integrity: sha512-eIpUghshpgEAtSBv/uSRM+7jBaUVcEpP4sInlOuRYDK+Wg091lQ5Gv5uOxgiHAqs3LWku3lRF81EReKyHehYUQ==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  "@pnpm/linuxstatic-x64@11.1.1":
-    resolution:
-      {
-        integrity: sha512-I/z56hfa1zM5F/Unup/1NrgsA+dcptsKQ2TjJLFz3wHKDx0RLrfF7DB0Rkpnr5IoAZ33v0GFZjlGhkOtc9VFGw==,
-      }
+  '@pnpm/linuxstatic-x64@11.1.2':
+    resolution: {integrity: sha512-sYJxMj7zrR8ZSGqvqai3fWJ95VAZtuDYUAluDXQ/VZ3/7+FqikbXqokitTt0yCGSOzbO8u7zseW8EsOqxf93Qw==}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  "@pnpm/macos-arm64@11.1.1":
-    resolution:
-      {
-        integrity: sha512-YQu6fC27F4jTIpXhF+4PdzOV7uSnVVG9KUxj5W+AFj0XFlUvBw+I1NsoPCY6uV1nccxWpIAZOTZtSj8+hWPb8w==,
-      }
+  '@pnpm/macos-arm64@11.1.2':
+    resolution: {integrity: sha512-eqwJeQbqgKRhLCgcVtb0Eaz3Ay6AspOkioqhT00jN6dFwoUYi7Xo78rnZ2uSwVSp+Sij4Yyuvmu++ZPIeP9VrA==}
     cpu: [arm64]
     os: [darwin]
 
-  "@pnpm/win-arm64@11.1.1":
-    resolution:
-      {
-        integrity: sha512-2HvZut3IcKPxzIfOjBJ4677PaLIh57mWccL86O+q71QhO5emnQvht0CE19IoEyUIOEe1WjlN+Su/dD5k6CuGyg==,
-      }
+  '@pnpm/win-arm64@11.1.2':
+    resolution: {integrity: sha512-MZzvuuODP/AI781f+x/lB9UuN2SHIGVn6W08SEWKdPIMxWqBGKXLd9QOuh6uRJ7UWC9AufFzhbVs0fSQxxEcng==}
     cpu: [arm64]
     os: [win32]
 
-  "@pnpm/win-x64@11.1.1":
-    resolution:
-      {
-        integrity: sha512-QXBIBErgPhGLovOVzTRIpHsejFKebyqlcF3fea/TfH87gkhN5yWH0WuTPRBoOWvpk6aNhjDW4RPUMx8RaPqxjw==,
-      }
+  '@pnpm/win-x64@11.1.2':
+    resolution: {integrity: sha512-1B2ijW1Z68ehS4QkLVbD+oENz7ribCNpL5Hh5UMDdVm04KYmi2vDp2BW7SrC8AS6G4/5YUs5yFLJPY57CLJJ8A==}
     cpu: [x64]
     os: [win32]
 
-  "@reflink/reflink-darwin-arm64@0.1.19":
-    resolution:
-      {
-        integrity: sha512-ruy44Lpepdk1FqDz38vExBY/PVUsjxZA+chd9wozjUH9JjuDT/HEaQYA6wYN9mf041l0yLVar6BCZuWABJvHSA==,
-      }
-    engines: { node: ">= 10" }
+  '@reflink/reflink-darwin-arm64@0.1.19':
+    resolution: {integrity: sha512-ruy44Lpepdk1FqDz38vExBY/PVUsjxZA+chd9wozjUH9JjuDT/HEaQYA6wYN9mf041l0yLVar6BCZuWABJvHSA==}
+    engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
 
-  "@reflink/reflink-darwin-x64@0.1.19":
-    resolution:
-      {
-        integrity: sha512-By85MSWrMZa+c26TcnAy8SDk0sTUkYlNnwknSchkhHpGXOtjNDUOxJE9oByBnGbeuIE1PiQsxDG3Ud+IVV9yuA==,
-      }
-    engines: { node: ">= 10" }
+  '@reflink/reflink-darwin-x64@0.1.19':
+    resolution: {integrity: sha512-By85MSWrMZa+c26TcnAy8SDk0sTUkYlNnwknSchkhHpGXOtjNDUOxJE9oByBnGbeuIE1PiQsxDG3Ud+IVV9yuA==}
+    engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
 
-  "@reflink/reflink-linux-arm64-gnu@0.1.19":
-    resolution:
-      {
-        integrity: sha512-7P+er8+rP9iNeN+bfmccM4hTAaLP6PQJPKWSA4iSk2bNvo6KU6RyPgYeHxXmzNKzPVRcypZQTpFgstHam6maVg==,
-      }
-    engines: { node: ">= 10" }
+  '@reflink/reflink-linux-arm64-gnu@0.1.19':
+    resolution: {integrity: sha512-7P+er8+rP9iNeN+bfmccM4hTAaLP6PQJPKWSA4iSk2bNvo6KU6RyPgYeHxXmzNKzPVRcypZQTpFgstHam6maVg==}
+    engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  "@reflink/reflink-linux-arm64-musl@0.1.19":
-    resolution:
-      {
-        integrity: sha512-37iO/Dp6m5DDaC2sf3zPtx/hl9FV3Xze4xoYidrxxS9bgP3S8ALroxRK6xBG/1TtfXKTvolvp+IjrUU6ujIGmA==,
-      }
-    engines: { node: ">= 10" }
+  '@reflink/reflink-linux-arm64-musl@0.1.19':
+    resolution: {integrity: sha512-37iO/Dp6m5DDaC2sf3zPtx/hl9FV3Xze4xoYidrxxS9bgP3S8ALroxRK6xBG/1TtfXKTvolvp+IjrUU6ujIGmA==}
+    engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  "@reflink/reflink-linux-x64-gnu@0.1.19":
-    resolution:
-      {
-        integrity: sha512-jbI8jvuYCaA3MVUdu8vLoLAFqC+iNMpiSuLbxlAgg7x3K5bsS8nOpTRnkLF7vISJ+rVR8W+7ThXlXlUQ93ulkw==,
-      }
-    engines: { node: ">= 10" }
+  '@reflink/reflink-linux-x64-gnu@0.1.19':
+    resolution: {integrity: sha512-jbI8jvuYCaA3MVUdu8vLoLAFqC+iNMpiSuLbxlAgg7x3K5bsS8nOpTRnkLF7vISJ+rVR8W+7ThXlXlUQ93ulkw==}
+    engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  "@reflink/reflink-linux-x64-musl@0.1.19":
-    resolution:
-      {
-        integrity: sha512-e9FBWDe+lv7QKAwtKOt6A2W/fyy/aEEfr0g6j/hWzvQcrzHCsz07BNQYlNOjTfeytrtLU7k449H1PI95jA4OjQ==,
-      }
-    engines: { node: ">= 10" }
+  '@reflink/reflink-linux-x64-musl@0.1.19':
+    resolution: {integrity: sha512-e9FBWDe+lv7QKAwtKOt6A2W/fyy/aEEfr0g6j/hWzvQcrzHCsz07BNQYlNOjTfeytrtLU7k449H1PI95jA4OjQ==}
+    engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  "@reflink/reflink-win32-arm64-msvc@0.1.19":
-    resolution:
-      {
-        integrity: sha512-09PxnVIQcd+UOn4WAW73WU6PXL7DwGS6wPlkMhMg2zlHHG65F3vHepOw06HFCq+N42qkaNAc8AKIabWvtk6cIQ==,
-      }
-    engines: { node: ">= 10" }
+  '@reflink/reflink-win32-arm64-msvc@0.1.19':
+    resolution: {integrity: sha512-09PxnVIQcd+UOn4WAW73WU6PXL7DwGS6wPlkMhMg2zlHHG65F3vHepOw06HFCq+N42qkaNAc8AKIabWvtk6cIQ==}
+    engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
 
-  "@reflink/reflink-win32-x64-msvc@0.1.19":
-    resolution:
-      {
-        integrity: sha512-E//yT4ni2SyhwP8JRjVGWr3cbnhWDiPLgnQ66qqaanjjnMiu3O/2tjCPQXlcGc/DEYofpDc9fvhv6tALQsMV9w==,
-      }
-    engines: { node: ">= 10" }
+  '@reflink/reflink-win32-x64-msvc@0.1.19':
+    resolution: {integrity: sha512-E//yT4ni2SyhwP8JRjVGWr3cbnhWDiPLgnQ66qqaanjjnMiu3O/2tjCPQXlcGc/DEYofpDc9fvhv6tALQsMV9w==}
+    engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
 
-  "@reflink/reflink@0.1.19":
-    resolution:
-      {
-        integrity: sha512-DmCG8GzysnCZ15bres3N5AHCmwBwYgp0As6xjhQ47rAUTUXxJiK+lLUxaGsX3hd/30qUpVElh05PbGuxRPgJwA==,
-      }
-    engines: { node: ">= 10" }
+  '@reflink/reflink@0.1.19':
+    resolution: {integrity: sha512-DmCG8GzysnCZ15bres3N5AHCmwBwYgp0As6xjhQ47rAUTUXxJiK+lLUxaGsX3hd/30qUpVElh05PbGuxRPgJwA==}
+    engines: {node: '>= 10'}
 
   detect-libc@2.1.2:
-    resolution:
-      {
-        integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==,
-      }
-    engines: { node: ">=8" }
+    resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
+    engines: {node: '>=8'}
 
-  pnpm@11.1.1:
-    resolution:
-      {
-        integrity: sha512-0f319zxhe2T6GlaoHDyN/g6WbjOmAQqiVrUXrne+Idk+Ba/8DeGoOw5PKdVp9otEaujwaM1yR8C7PfD7TXvfmg==,
-      }
-    engines: { node: ">=22.13" }
+  pnpm@11.1.2:
+    resolution: {integrity: sha512-QVocwll0cx51RVwUaDcb50xapft2IbUNQFbSIkUWCfEUEvI/1gLmFp8eBgRmZB95hZfhvpYaEGiINqZ7FlaUmQ==}
+    engines: {node: '>=22.13'}
     hasBin: true
 
 snapshots:
-  "@pnpm/exe@11.1.1":
+
+  '@pnpm/exe@11.1.2':
     dependencies:
-      "@reflink/reflink": 0.1.19
+      '@reflink/reflink': 0.1.19
       detect-libc: 2.1.2
     optionalDependencies:
-      "@pnpm/linux-arm64": 11.1.1
-      "@pnpm/linux-x64": 11.1.1
-      "@pnpm/linuxstatic-arm64": 11.1.1
-      "@pnpm/linuxstatic-x64": 11.1.1
-      "@pnpm/macos-arm64": 11.1.1
-      "@pnpm/win-arm64": 11.1.1
-      "@pnpm/win-x64": 11.1.1
+      '@pnpm/linux-arm64': 11.1.2
+      '@pnpm/linux-x64': 11.1.2
+      '@pnpm/linuxstatic-arm64': 11.1.2
+      '@pnpm/linuxstatic-x64': 11.1.2
+      '@pnpm/macos-arm64': 11.1.2
+      '@pnpm/win-arm64': 11.1.2
+      '@pnpm/win-x64': 11.1.2
 
-  "@pnpm/linux-arm64@11.1.1":
+  '@pnpm/linux-arm64@11.1.2':
     optional: true
 
-  "@pnpm/linux-x64@11.1.1":
+  '@pnpm/linux-x64@11.1.2':
     optional: true
 
-  "@pnpm/linuxstatic-arm64@11.1.1":
+  '@pnpm/linuxstatic-arm64@11.1.2':
     optional: true
 
-  "@pnpm/linuxstatic-x64@11.1.1":
+  '@pnpm/linuxstatic-x64@11.1.2':
     optional: true
 
-  "@pnpm/macos-arm64@11.1.1":
+  '@pnpm/macos-arm64@11.1.2':
     optional: true
 
-  "@pnpm/win-arm64@11.1.1":
+  '@pnpm/win-arm64@11.1.2':
     optional: true
 
-  "@pnpm/win-x64@11.1.1":
+  '@pnpm/win-x64@11.1.2':
     optional: true
 
-  "@reflink/reflink-darwin-arm64@0.1.19":
+  '@reflink/reflink-darwin-arm64@0.1.19':
     optional: true
 
-  "@reflink/reflink-darwin-x64@0.1.19":
+  '@reflink/reflink-darwin-x64@0.1.19':
     optional: true
 
-  "@reflink/reflink-linux-arm64-gnu@0.1.19":
+  '@reflink/reflink-linux-arm64-gnu@0.1.19':
     optional: true
 
-  "@reflink/reflink-linux-arm64-musl@0.1.19":
+  '@reflink/reflink-linux-arm64-musl@0.1.19':
     optional: true
 
-  "@reflink/reflink-linux-x64-gnu@0.1.19":
+  '@reflink/reflink-linux-x64-gnu@0.1.19':
     optional: true
 
-  "@reflink/reflink-linux-x64-musl@0.1.19":
+  '@reflink/reflink-linux-x64-musl@0.1.19':
     optional: true
 
-  "@reflink/reflink-win32-arm64-msvc@0.1.19":
+  '@reflink/reflink-win32-arm64-msvc@0.1.19':
     optional: true
 
-  "@reflink/reflink-win32-x64-msvc@0.1.19":
+  '@reflink/reflink-win32-x64-msvc@0.1.19':
     optional: true
 
-  "@reflink/reflink@0.1.19":
+  '@reflink/reflink@0.1.19':
     optionalDependencies:
-      "@reflink/reflink-darwin-arm64": 0.1.19
-      "@reflink/reflink-darwin-x64": 0.1.19
-      "@reflink/reflink-linux-arm64-gnu": 0.1.19
-      "@reflink/reflink-linux-arm64-musl": 0.1.19
-      "@reflink/reflink-linux-x64-gnu": 0.1.19
-      "@reflink/reflink-linux-x64-musl": 0.1.19
-      "@reflink/reflink-win32-arm64-msvc": 0.1.19
-      "@reflink/reflink-win32-x64-msvc": 0.1.19
+      '@reflink/reflink-darwin-arm64': 0.1.19
+      '@reflink/reflink-darwin-x64': 0.1.19
+      '@reflink/reflink-linux-arm64-gnu': 0.1.19
+      '@reflink/reflink-linux-arm64-musl': 0.1.19
+      '@reflink/reflink-linux-x64-gnu': 0.1.19
+      '@reflink/reflink-linux-x64-musl': 0.1.19
+      '@reflink/reflink-win32-arm64-msvc': 0.1.19
+      '@reflink/reflink-win32-x64-msvc': 0.1.19
 
   detect-libc@2.1.2: {}
 
-  pnpm@11.1.1: {}
+  pnpm@11.1.2: {}
 
 ---
 lockfileVersion: '9.0'
@@ -261,9 +207,9 @@ importers:
 
   .:
     dependencies:
-      '@upstash/redis':
-        specifier: ^1.38.0
-        version: 1.38.0
+      '@upstash/ratelimit':
+        specifier: ^2.0.8
+        version: 2.0.8(@upstash/redis@1.38.0)
       bcryptjs:
         specifier: ^3.0.3
         version: 3.0.3
@@ -285,6 +231,15 @@ importers:
         version: 3.1.14
 
 packages:
+
+  '@upstash/core-analytics@0.0.10':
+    resolution: {integrity: sha512-7qJHGxpQgQr9/vmeS1PktEwvNAF7TI4iJDi8Pu2CFZ9YUGHZH4fOP5TfYlZ4aVxfopnELiE4BS4FBjyK7V1/xQ==}
+    engines: {node: '>=16.0.0'}
+
+  '@upstash/ratelimit@2.0.8':
+    resolution: {integrity: sha512-YSTMBJ1YIxsoPkUMX/P4DDks/xV5YYCswWMamU8ZIfK9ly6ppjRnVOyBhMDXBmzjODm4UQKcxsJPvaeFAijp5w==}
+    peerDependencies:
+      '@upstash/redis': ^1.34.3
 
   '@upstash/redis@1.38.0':
     resolution: {integrity: sha512-wu+dZBptlLy0+MCUEoHmzrY/TnmgDey3+c7EbIGwrLqAvkP8yi5MWZHYGIFtAygmL4Bkz2TdFu+eU0vFPncIcg==}
@@ -347,6 +302,10 @@ packages:
   content-type@1.0.5:
     resolution: {integrity: sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==}
     engines: {node: '>= 0.6'}
+
+  content-type@2.0.0:
+    resolution: {integrity: sha512-j/O/d7GcZCyNl7/hwZAb606rzqkyvaDctLmckbxLzHvFBzTJHuGEdodATcP3yIRoDrLHkIATJuvzbFlp/ki2cQ==}
+    engines: {node: '>=18'}
 
   cookie-signature@1.2.2:
     resolution: {integrity: sha512-D76uU73ulSXrD1UXF4KE2TMxVVwhsnCgfAyTg9k8P6KGZjlXKrOLe4dJQKI3Bxi5wjesZoFXJWElNWBjPZMbhg==}
@@ -689,9 +648,9 @@ packages:
     resolution: {integrity: sha512-r0eojU4bI8MnHr8c5bNo7lJDdI2qXlWWJk6a9EAFG7vbhTjElYhBVS3/miuE0uOuoLdb8Mc/rVfsmm6eo5o9GA==}
     hasBin: true
 
-  type-is@2.0.1:
-    resolution: {integrity: sha512-OZs6gsjF4vMp32qrCbiVSkrFmXtG/AZhY3t0iAMrMBiAZyV9oALtXO8hsrHbMXF9x6L3grlFuwW2oAz7cav+Gw==}
-    engines: {node: '>= 0.6'}
+  type-is@2.1.0:
+    resolution: {integrity: sha512-faYHw0anBbc/kWF3zFTEnxSFOAGUX9GFbOBthvDdLsIlEoWOFOtS0zgCiQYwIskL9iGXZL3kAXD8OoZ4GmMATA==}
+    engines: {node: '>= 18'}
 
   uncrypto@0.1.3:
     resolution: {integrity: sha512-Ql87qFHB3s/De2ClA9e0gsnS6zXG27SkTiSJwjCc9MebbfapQfuPzumMIUMi38ezPZVNFcHI9sUIepeQfw8J8Q==}
@@ -711,6 +670,15 @@ packages:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
 snapshots:
+
+  '@upstash/core-analytics@0.0.10':
+    dependencies:
+      '@upstash/redis': 1.38.0
+
+  '@upstash/ratelimit@2.0.8(@upstash/redis@1.38.0)':
+    dependencies:
+      '@upstash/core-analytics': 0.0.10
+      '@upstash/redis': 1.38.0
 
   '@upstash/redis@1.38.0':
     dependencies:
@@ -742,7 +710,7 @@ snapshots:
       on-finished: 2.4.1
       qs: 6.15.1
       raw-body: 3.0.2
-      type-is: 2.0.1
+      type-is: 2.1.0
     transitivePeerDependencies:
       - supports-color
 
@@ -783,6 +751,8 @@ snapshots:
   content-disposition@1.1.0: {}
 
   content-type@1.0.5: {}
+
+  content-type@2.0.0: {}
 
   cookie-signature@1.2.2: {}
 
@@ -857,7 +827,7 @@ snapshots:
       send: 1.2.1
       serve-static: 2.2.1
       statuses: 2.0.2
-      type-is: 2.0.1
+      type-is: 2.1.0
       vary: 1.1.2
     transitivePeerDependencies:
       - supports-color
@@ -1154,9 +1124,9 @@ snapshots:
 
   touch@3.1.1: {}
 
-  type-is@2.0.1:
+  type-is@2.1.0:
     dependencies:
-      content-type: 1.0.5
+      content-type: 2.0.0
       media-typer: 1.1.0
       mime-types: 3.0.2
 

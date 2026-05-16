@@ -17,7 +17,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@upstash/redis": "^1.38.0",
+    "@upstash/ratelimit": "^2.0.8",
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
