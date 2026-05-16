@@ -11,7 +11,8 @@ This is a basic MERN or PERN stack starter template using Vite.
    - Nodemon.
    - Cors.
    - Dotenv.
-   - Upstash.
+   - Upstash/ratelimit.
+   - Express Validator.
    - Jsonwebtoken.
    - Bcryptjs.
 
