@@ -7,6 +7,8 @@
    - Stores static assets that don't need processing.
 
 3. **src**
+   - Assets
+     - Static files likes images, fonts, icons.
    - components
      - Reusable UI elements like buttons, cards, and navbars.
    - context
