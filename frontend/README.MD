@@ -14,7 +14,7 @@
    - context
      - Files for managing global state using React Context, Redux, or Zustand.
    - hooks
-     - Reusable UI elements like buttons, cards, and navbars.
+     - It contains custom React hooks.
    - pages
      - Route-level components representing entire views.
    - utils
