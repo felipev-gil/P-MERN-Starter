@@ -1,74 +1,101 @@
 # P-MERN Starter
 
-## Description
+A production-ready MERN starter template built with React, Vite, Express, MongoDB, JWT authentication, validation, testing, rate limiting, Tailwind CSS, DaisyUI, and pnpm.
 
-This is a basic MERN or PERN stack starter template using Vite.
+## Project Structure
 
-## Dependencies
+```text
+P-MERN-Starter/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── context/
+│   │   ├── hooks/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── utils/
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   │
+│   ├── index.html
+│   ├── package.json
+│   └── .env
+│
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   ├── controllers/
+│   │   ├── middlewares/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── tests/
+│   │   └── utils/
+│   │   ├── validators/
+│   │
+│   ├── index.js
+│   ├── package.json
+│   └── .env
+│
+└── README.md
+```
 
-1. **Backend**
-   - Express.
-   - Nodemon.
-   - Cors.
-   - Dotenv.
-   - Upstash/ratelimit.
-   - Express Validator.
-   - Jsonwebtoken.
-   - Bcryptjs.
+## Included Features
 
-2. **Frontend**
-   - Axios.
-   - React Router.
-   - Lucide React.
-   - TailwindCSS.
-   - Daisyui.
-   - React Hot Toast.
-   - Sweetalert2.
+### Frontend
 
-## Installation
+- React
+- Vite
+- React Router
+- Axios
+- Tailwind CSS
+- DaisyUI
+- React Hot Toast
+- SweetAlert2
+- Lucide React
 
-1. **Clone the repository**:
+### Backend
 
-   ```
-   git clone https://github.com/felipev-gil/P-MERN-Starter.git
-   ```
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- BcryptJS
+- Express Validator
+- Upstash Rate Limiting
 
-2. **Dependencies**:
+### Testing
 
-   Go to the frontend folder and run the following command.
+- Jest
+- Supertest
 
-   ```
-   cd ./frontend
-   npm install
-   ```
+### Deployment Ready
 
-   Go to the backend folder and run the following command.
+- Vercel
+- Render
+- MongoDB Atlas
 
-   ```
-   cd ./backend
-   npm install
-   ```
+## Getting Started
 
-3. **Additional Configuration**:
-   - Choose your database system and install the necessary dependencies.
-   - Set up your environment variables by creating or modifying the .env files in the frontend and backend.
-   - Ensure your database connection is configured correctly in the .env file according to your database setup.
-   - Create the folders that are mentioned in each README.md
+### Frontend
 
-## Usage
+```bash
+cd frontend
+pnpm install
+pnpm run dev
+```
 
-1. **Start the app**
+### Backend
 
-   Go to the frontend folder and run the following command.
+```bash
+cd backend
+pnpm install
+pnpm run dev
+```
 
-   ```
-   cd ./frontend
-   npm run dev
-   ```
+## License
 
-   Go to the backend folder and run the following command.
-
-   ```
-   cd ./backend
-   npm run dev
-   ```
+MIT

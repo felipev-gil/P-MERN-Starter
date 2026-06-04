@@ -1,36 +1,65 @@
-# Directory Structure
+# Frontend Directory Structure
 
-1. **node_modules**
-   - The directory in Node.js projects that stores all third-party libraries, packages, and dependencies.
+## node_modules
 
-2. **public**
-   - Stores static assets that don't need processing.
+Stores all installed third-party packages and dependencies.
 
-3. **src**
-   - Assets
-     - Static files likes images, fonts, icons.
-   - components
-     - Reusable UI elements like buttons, cards, and navbars.
-   - context
-     - Files for managing global state using React Context, Redux, or Zustand.
-   - hooks
-     - It contains custom React hooks.
-   - pages
-     - Route-level components representing entire views.
-   - utils
-     - General helper functions for things like date formatting or data validation.
-   - App.jsx
-     - The root component where you typically set up routing and global providers.
-   - index.css
-     - Global CSS rules that apply to your entire application.
-   - main.jsx
-     - This is the bridge that connects your React code to your web browser.
+## src
 
-4. **.env**
-   - Environment variables (DB URI, Secret Keys).
+### assets
 
-5. **html.index**
-   - The main HTML file where the compiled React/Vite app is injected.
+Static resources such as images, icons, and fonts.
 
-6. **package.json**
-   - Central identity card or manifest for any Node.js project.
+### components
+
+Reusable UI elements such as buttons, cards, modals, and navigation bars.
+
+### context
+
+Global state management using React Context.
+
+### hooks
+
+Custom React hooks that encapsulate reusable logic.
+
+### pages
+
+Route-level components representing complete application views.
+
+### services
+
+Handles business logic, state management, and external API requests.
+
+### utils
+
+Reusable helper functions and utility logic.
+
+### App.jsx
+
+Root application component where routes and global providers are configured.
+
+### index.css
+
+Global styles applied across the application.
+
+### main.jsx
+
+Application entry point. Mounts React into the DOM and renders the application.
+
+## .env
+
+Frontend environment variables.
+
+Example:
+
+```env
+VITE_API_URL=http://localhost:5000/api
+```
+
+## index.html
+
+Main HTML document used by Vite to load the React application.
+
+## package.json
+
+Project metadata, scripts, and dependency definitions.

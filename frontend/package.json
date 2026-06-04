@@ -1,7 +1,9 @@
 {
   "name": "frontend",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "author": "Felipe Vanegas Gil (https://github.com/felipev-gil)",
+  "license": "MIT",
+  "packageManager": "pnpm@11.1.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -17,7 +19,8 @@
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-hot-toast": "^2.6.0",
-    "react-router": "^7.15.0",
+    "react-router": "^7.16.0",
+    "react-router-dom": "^7.16.0",
     "sweetalert2": "^11.26.24",
     "tailwindcss": "^4.3.0"
   },
