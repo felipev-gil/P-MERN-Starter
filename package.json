@@ -1,0 +1,19 @@
+{
+  "name": "p-mern-starter",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=24.14.0 <25",
+    "pnpm": ">=11.19.0 <12"
+  },
+  "scripts": {
+    "dev": "pnpm --parallel --filter backend --filter frontend dev",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "build": "pnpm --filter frontend build",
+    "start": "pnpm --filter backend start",
+    "check": "pnpm lint && pnpm test && pnpm build"
+  }
+}

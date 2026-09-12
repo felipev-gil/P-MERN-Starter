@@ -1,2 +1,24 @@
-@import "tailwindcss";
-@plugin "daisyui";
+@import "tailwindcss" source("./");
+@plugin "daisyui" {
+  themes: light --default;
+}
+body {
+  min-width: 320px;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -5rem;
+  padding: 0.5rem;
+  background: white;
+  z-index: 10;
+}
+.skip-link:focus {
+  top: 0.5rem;
+}

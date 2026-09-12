@@ -1,0 +1,20 @@
+import { afterEach, expect, it, vi } from 'vitest';
+import { cleanup, render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import { MemoryRouter } from 'react-router-dom';
+import { AuthContext } from '../context/auth-context';
+import { AuthPage } from './AuthPage';
+afterEach(cleanup);
+it('submits labeled registration fields and displays server field errors', async () => {
+  const signIn = vi.fn().mockRejectedValue(Object.assign(new Error('Check the highlighted fields.'), { fields: { email: 'Email is invalid.' } }));
+  render(<AuthContext.Provider value={{ signIn }}><MemoryRouter><AuthPage mode="register" /></MemoryRouter></AuthContext.Provider>);
+  const user = userEvent.setup();
+  await user.type(screen.getByLabelText('Name'), 'Example');
+  await user.type(screen.getByLabelText('Email'), 'example@example.com');
+  await user.type(screen.getByLabelText('Password'), 'a-long-test-password');
+  await user.click(screen.getByRole('button', { name: 'Create account' }));
+  expect(signIn).toHaveBeenCalledWith('register', { name: 'Example', email: 'example@example.com', password: 'a-long-test-password' });
+  expect(await screen.findByText('Email is invalid.')).toBeTruthy();
+  expect(screen.getByLabelText('Email').getAttribute('aria-invalid')).toBe('true');
+  expect(screen.getByRole('button').disabled).toBe(false);
+});
